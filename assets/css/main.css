@@ -3497,12 +3497,18 @@ body.is-preload #banner p {
   width: calc(50% - 1.5em);
 }
 
+#footer .inner .contact .contacts__address {
+  margin: 0;
+}
+
 #footer .inner .copyright {
   border-top: solid 2px rgba(255, 255, 255, 0.125);
   list-style: none;
   margin: 4em 0 2em 0;
   padding: 2em 0 0 0;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 #footer .inner .copyright li {
