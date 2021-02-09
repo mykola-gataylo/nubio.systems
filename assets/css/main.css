@@ -75,7 +75,8 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  html, body {
+  html,
+  body {
     min-width: 320px;
   }
 }
@@ -84,8 +85,11 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -96,7 +100,9 @@ body {
   background-position: center, center;
 }
 
-body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+body.is-preload *,
+body.is-preload *:before,
+body.is-preload *:after {
   animation: none !important;
   transition: none !important;
 }
@@ -2955,9 +2961,8 @@ body.is-menu-visible #menu .inner {
 #banner .logo .icon {
   border-radius: 100%;
   border: solid 2px rgba(255, 255, 255, 0.125);
-  display: inline-block;
-  width: 5.35em;
-  height: 5.35em;
+  width: 5.85em;
+  height: 5.85em;
   display: flex;
   justify-content: center;
   align-items: center;
