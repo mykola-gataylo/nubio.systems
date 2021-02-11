@@ -94,7 +94,7 @@ html {
 
 body {
   background-color: #2e3141;
-  background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+  background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("/images/bg_main.jpg");
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center;
@@ -2110,6 +2110,7 @@ ul {
 
 ul li {
   padding-left: 0.5em;
+  list-style: none;
 }
 
 ul.alt {
@@ -2150,6 +2151,7 @@ ul.actions {
   list-style: none;
   margin-left: -1em;
   padding-left: 0;
+  justify-content: center;
 }
 
 ul.actions li {
@@ -3509,6 +3511,7 @@ body.is-preload #banner p {
   -moz-flex-direction: row;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 0 auto;
   width: 55em;
 }

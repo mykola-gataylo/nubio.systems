@@ -7,11 +7,13 @@
 /* Footer */
 
 #footer {
+
   .inner {
     @include padding(5em, 0);
     @include vendor('display', 'flex');
     @include vendor('flex-direction', 'row');
     @include vendor('flex-wrap', 'wrap');
+    justify-content: center;
     margin: 0 auto;
     width: _size(inner);
 

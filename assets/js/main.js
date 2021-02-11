@@ -122,13 +122,13 @@
       event.preventDefault();
       event.stopPropagation();
 
-      // Hide.
-      // $menu._hide();
+      Hide.
+      $menu._hide();
 
-      // Redirect.
-      // window.setTimeout(function () {
-      //   window.location.href = href;
-      // }, 350);
+      Redirect.
+      window.setTimeout(function () {
+        window.location.href = href;
+      }, 350);
 
     });
 
