@@ -93,8 +93,8 @@ html {
 }
 
 body {
-  background-color: rgba(113, 129, 133, 0.5);
-  background-image: linear-gradient(to top, rgba(113, 129, 133, 0.3), rgba(113, 129, 133, 0.3)), url("/images/bg_cloud.jpg");
+  background-color: #27282c;
+  background-image: linear-gradient(to top, rgba(39, 40, 44, 0.8), rgba(39, 40, 44, 0.8));
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center;
@@ -1869,7 +1869,7 @@ select {
 
 select option {
   color: #333438;
-  background: rgba(113, 129, 133, 0.5);
+  background: #27282c;
 }
 
 select:focus::-ms-value {
@@ -1954,7 +1954,7 @@ input[type="radio"]:checked + label:before {
   background: #333438;
   border-color: #333438;
   content: '\f00c';
-  color: rgba(113, 129, 133, 0.5);
+  color: #27282c;
 }
 
 input[type="checkbox"]:focus + label:before,
@@ -2593,14 +2593,9 @@ button:disabled,
   margin-right: 0;
 }
 
-.features .wrapper:before,
-.features .wrapper:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:rgba(113, 129, 133, 0.5)%3B' /%3E%3C/svg%3E");
-}
-
 .features article {
   padding: 1.75em 1.75em 0.1em 1.75em ;
-  background-color: rgba(122, 136, 139, 0.5);
+  background-color: #2f3033;
   border-radius: 5px;
   margin: 1.5em 3em 1.5em 0;
   width: calc(50% - 1.5em);
@@ -2608,8 +2603,7 @@ button:disabled,
 }
 
 .features article:nth-child(2n) {
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 0;
 }
 
 .features article .image {
@@ -2830,7 +2824,7 @@ button:disabled,
   transition: opacity 0.35s ease, visibility 0.35s;
   user-select: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background: rgba(113, 129, 133, 0.3);
+  background: rgba(39, 40, 44, 0.8);
   cursor: default;
   height: 100%;
   left: 0;
@@ -3035,7 +3029,7 @@ body.is-menu-visible #menu .inner {
 @media screen and (max-width: 1280px) {
   #banner {
     padding: 7em 0 8.25em 0 ;
-    background-color: rgba(113, 129, 133, 0.5);
+    background-color: #27282c;
     background-size: auto, cover;
     background-position: center, center;
     margin-bottom: -6.5em;
@@ -3121,8 +3115,8 @@ body.is-preload #banner p {
 @media screen and (max-width: 1280px) {
   #wrapper > header {
     padding: 9em 0 6.25em 0 ;
-    background-color: rgba(113, 129, 133, 0.5);
-    background-image: linear-gradient(to top, rgba(113, 129, 133, 0.3), rgba(113, 129, 133, 0.3)), url("../../images/bg.jpg");
+    background-color: #27282c;
+    background-image: linear-gradient(to top, rgba(39, 40, 44, 0.8), rgba(39, 40, 44, 0.8)), url("../../images/bg.jpg");
     background-size: auto, cover;
     background-position: center, 0% 30%;
     margin-bottom: -6.5em;
@@ -3162,15 +3156,15 @@ body.is-preload #banner p {
 }
 
 .wrapper:before, .wrapper:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:rgba(113, 129, 133, 0.5)%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2327282c%3B' /%3E%3C/svg%3E");
 }
 
 .wrapper:before {
-  box-shadow: inset 0 -1px 0 0 rgba(113, 129, 133, 0.5), 0 1px 0 0 rgba(113, 129, 133, 0.5);
+  box-shadow: inset 0 -1px 0 0 #27282c, 0 1px 0 0 #27282c;
 }
 
 .wrapper:after {
-  box-shadow: inset 0 -1px 0 0 rgba(113, 129, 133, 0.5), 0 1px 0 0 rgba(113, 129, 133, 0.5);
+  box-shadow: inset 0 -1px 0 0 #27282c, 0 1px 0 0 #27282c;
 }
 
 .wrapper:before, .wrapper:after {
@@ -3209,83 +3203,83 @@ body.is-preload #banner p {
 }
 
 .wrapper.style2 {
-  background-color: rgba(122, 136, 139, 0.5);
+  background-color: #2f3033;
 }
 
 .wrapper.style2:before, .wrapper.style2:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:rgba(122, 136, 139, 0.5)%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232f3033%3B' /%3E%3C/svg%3E");
 }
 
 .wrapper.style2:before {
-  box-shadow: inset 0 -1px 0 0 rgba(122, 136, 139, 0.5), 0 1px 0 0 rgba(122, 136, 139, 0.5);
+  box-shadow: inset 0 -1px 0 0 #2f3033, 0 1px 0 0 #2f3033;
 }
 
 .wrapper.style2:after {
-  box-shadow: inset 0 -1px 0 0 rgba(122, 136, 139, 0.5), 0 1px 0 0 rgba(122, 136, 139, 0.5);
+  box-shadow: inset 0 -1px 0 0 #2f3033, 0 1px 0 0 #2f3033;
 }
 
 .wrapper.style3 {
-  background-color: rgba(132, 142, 144, 0.5);
+  background-color: #37383b;
 }
 
 .wrapper.style3:before, .wrapper.style3:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:rgba(132, 142, 144, 0.5)%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2337383b%3B' /%3E%3C/svg%3E");
 }
 
 .wrapper.style3:before {
-  box-shadow: inset 0 -1px 0 0 rgba(132, 142, 144, 0.5), 0 1px 0 0 rgba(132, 142, 144, 0.5);
+  box-shadow: inset 0 -1px 0 0 #37383b, 0 1px 0 0 #37383b;
 }
 
 .wrapper.style3:after {
-  box-shadow: inset 0 -1px 0 0 rgba(132, 142, 144, 0.5), 0 1px 0 0 rgba(132, 142, 144, 0.5);
+  box-shadow: inset 0 -1px 0 0 #37383b, 0 1px 0 0 #37383b;
 }
 
 .wrapper.style4 {
-  background-color: rgba(142, 148, 150, 0.5);
+  background-color: #3f4041;
 }
 
 .wrapper.style4:before, .wrapper.style4:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:rgba(142, 148, 150, 0.5)%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233f4041%3B' /%3E%3C/svg%3E");
 }
 
 .wrapper.style4:before {
-  box-shadow: inset 0 -1px 0 0 rgba(142, 148, 150, 0.5), 0 1px 0 0 rgba(142, 148, 150, 0.5);
+  box-shadow: inset 0 -1px 0 0 #3f4041, 0 1px 0 0 #3f4041;
 }
 
 .wrapper.style4:after {
-  box-shadow: inset 0 -1px 0 0 rgba(142, 148, 150, 0.5), 0 1px 0 0 rgba(142, 148, 150, 0.5);
+  box-shadow: inset 0 -1px 0 0 #3f4041, 0 1px 0 0 #3f4041;
 }
 
 .wrapper.style5 {
-  background-color: rgba(151, 155, 156, 0.5);
+  background-color: #484848;
 }
 
 .wrapper.style5:before, .wrapper.style5:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:rgba(151, 155, 156, 0.5)%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23484848%3B' /%3E%3C/svg%3E");
 }
 
 .wrapper.style5:before {
-  box-shadow: inset 0 -1px 0 0 rgba(151, 155, 156, 0.5), 0 1px 0 0 rgba(151, 155, 156, 0.5);
+  box-shadow: inset 0 -1px 0 0 #484848, 0 1px 0 0 #484848;
 }
 
 .wrapper.style5:after {
-  box-shadow: inset 0 -1px 0 0 rgba(151, 155, 156, 0.5), 0 1px 0 0 rgba(151, 155, 156, 0.5);
+  box-shadow: inset 0 -1px 0 0 #484848, 0 1px 0 0 #484848;
 }
 
 .wrapper.style6 {
-  background-color: rgba(161, 162, 162, 0.5);
+  background-color: #505050;
 }
 
 .wrapper.style6:before, .wrapper.style6:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:rgba(161, 162, 162, 0.5)%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23505050%3B' /%3E%3C/svg%3E");
 }
 
 .wrapper.style6:before {
-  box-shadow: inset 0 -1px 0 0 rgba(161, 162, 162, 0.5), 0 1px 0 0 rgba(161, 162, 162, 0.5);
+  box-shadow: inset 0 -1px 0 0 #505050, 0 1px 0 0 #505050;
 }
 
 .wrapper.style6:after {
-  box-shadow: inset 0 -1px 0 0 rgba(161, 162, 162, 0.5), 0 1px 0 0 rgba(161, 162, 162, 0.5);
+  box-shadow: inset 0 -1px 0 0 #505050, 0 1px 0 0 #505050;
 }
 
 .wrapper.spotlight {
@@ -3574,7 +3568,7 @@ body.is-preload #banner p {
 
 @media screen and (max-width: 1280px) {
   #footer {
-    background-color: rgba(113, 129, 133, 0.5);
+    background-color: #27282c;
     background-size: auto, cover;
     background-position: center, center;
     margin-top: -6.5em;
