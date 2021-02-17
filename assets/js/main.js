@@ -155,27 +155,10 @@
 // Menu custom
 
 function myFunction() {
-  var menu = document.querySelector('.link-list');
-  if (menu.style.display === "block") {
-    menu.style.display = "none";
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
   } else {
-    menu.style.display = "block";
+    x.style.display = "block";
   }
-}
-
-// Our Team
-
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function () {
-    this.classList.toggle("active-team");
-    var contentTeam = this.nextElementSibling;
-    if (contentTeam.style.maxHeight) {
-      contentTeam.style.maxHeight = null;
-    } else {
-      contentTeam.style.maxHeight = contentTeam.scrollHeight + "px";
-    }
-  });
 }

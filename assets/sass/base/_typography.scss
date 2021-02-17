@@ -104,6 +104,14 @@ p {
   margin: 0 0 _size(element-margin) 0;
 }
 
+.dark {
+  color: _palette(fg-bold);
+}
+
+.light {
+  color: _palette(fg);
+}
+
 h1,
 h2,
 h3,
@@ -129,20 +137,20 @@ h6 {
 
   &.major {
     padding-bottom: 1em;
-    border-bottom: solid 2px _palette(border);
+    border-bottom: solid 3px _palette(border);
   }
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 h3 {
-  font-size: 0.9em;
+  font-size: 1.1em;
 }
 
 h4 {
-  font-size: 0.7em;
+  font-size: 0.9em;
 }
 
 h5 {
