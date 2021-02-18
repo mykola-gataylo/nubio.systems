@@ -2681,7 +2681,11 @@ button:disabled,
 #header h1 .logo-block {
   display: flex;
   align-items: center;
-  color: white;
+  color: #d7d7d7;
+}
+
+#header h1 .logo-block:hover {
+  color: #3f8ff7 !important;
 }
 
 #header h1 .logo-block .logo-svg {
@@ -2689,10 +2693,6 @@ button:disabled,
   width: 52px;
   height: 52px;
   margin-right: 10px;
-}
-
-#header h1 .logo-title {
-  color: white !important;
 }
 
 #header nav {
@@ -2939,9 +2939,18 @@ body.is-menu-visible #menu .inner {
 }
 
 .topnav a {
-  color: #3f8ff7 !important;
   display: block;
   text-align: right;
+}
+
+.topnav a .fa-bars {
+  transition: color 0.2s ease-in-out;
+  font-size: 1.5em;
+  color: #3f8ff7 !important;
+}
+
+.topnav a .fa-bars:hover {
+  color: #d7d7d7 !important;
 }
 
 .topnav ul {
@@ -2954,7 +2963,7 @@ body.is-menu-visible #menu .inner {
 }
 
 .topnav ul li .link-item {
-  color: #3f8ff7 !important;
+  color: #d7d7d7 !important;
   display: block;
   font-family: Raleway, Helvetica, sans-serif;
   font-weight: 700;
@@ -2962,6 +2971,10 @@ body.is-menu-visible #menu .inner {
   text-transform: uppercase;
   padding: 0;
   font-size: 0.8em;
+}
+
+.topnav ul li .link-item:hover {
+  color: #3f8ff7 !important;
 }
 
 /* Banner */
