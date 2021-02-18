@@ -2601,10 +2601,12 @@ button:disabled,
   margin: 1.5em 3em 1.5em 0;
   width: calc(50% - 1.5em);
   margin-right: 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .features article:nth-child(2n) {
-  margin-right: 0;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .features article .image {
@@ -2624,7 +2626,6 @@ button:disabled,
 
 @media screen and (max-width: 980px) {
   .features article {
-    margin: 1em 2em 1em 0;
     width: calc(50% - 1em);
   }
 }
@@ -2632,7 +2633,6 @@ button:disabled,
 @media screen and (max-width: 736px) {
   .features article {
     padding: 1.5em 1.5em 0.1em 1.5em ;
-    margin: 0.875em 1.75em 0.875em 0;
     width: calc(50% - 0.875em - 1px);
   }
   .features article .image {
