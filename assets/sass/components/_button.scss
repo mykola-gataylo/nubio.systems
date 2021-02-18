@@ -34,7 +34,8 @@ button,
   outline: none;
 
   &:hover {
-    background-color: transparent;
+    background: transparent;
+    color: _palette(fg) !important;
   }
 
   &:active {
