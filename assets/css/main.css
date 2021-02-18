@@ -112,7 +112,7 @@ body,
 input,
 select,
 textarea {
-  color: #ffffff;
+  color: #d7d7d7;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16.5pt;
   font-weight: 300;
@@ -204,7 +204,7 @@ a.special:not(.button):before {
 a.special:not(.button):before {
   transition: background-color 0.2s ease-in-out;
   border-radius: 100%;
-  border: solid 2px #ff3c00;
+  border: solid 2px #3f8ff7;
   content: '\f105';
   display: inline-block;
   font-size: 1.25em;
@@ -245,7 +245,7 @@ p {
 }
 
 .light {
-  color: #ffffff;
+  color: #d7d7d7;
 }
 
 h1,
@@ -289,7 +289,7 @@ h4.major,
 h5.major,
 h6.major {
   padding-bottom: 1em;
-  border-bottom: solid 3px #ff3c00;
+  border-bottom: solid 3px #3f8ff7;
 }
 
 h2 {
@@ -334,7 +334,7 @@ sup {
 }
 
 blockquote {
-  border-left: solid 4px #ff3c00;
+  border-left: solid 4px #3f8ff7;
   font-style: italic;
   margin: 0 0 2em 0;
   padding: 0.5em 0 0.5em 2em;
@@ -343,7 +343,7 @@ blockquote {
 code {
   background: rgba(51, 52, 56, 0.5);
   border-radius: 5px;
-  border: solid 2px #ff3c00;
+  border: solid 2px #3f8ff7;
   font-family: "Courier New", monospace;
   font-size: 0.9em;
   margin: 0 0.25em;
@@ -366,7 +366,7 @@ pre code {
 
 hr {
   border: 0;
-  border-bottom: solid 2px #ff3c00;
+  border-bottom: solid 2px #3f8ff7;
   margin: 2.5em 0;
 }
 
@@ -1827,7 +1827,7 @@ input[type="tel"],
 select,
 textarea {
   appearance: none;
-  background: rgba(51, 52, 56, 0.2);
+  background: rgba(215, 215, 215, 0.1);
   border-radius: 5px;
   border: none;
   color: inherit;
@@ -1858,7 +1858,7 @@ textarea:focus {
 }
 
 select {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23ff3c00' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%233f8ff7' /%3E%3C/svg%3E");
   background-size: 1.25rem;
   background-repeat: no-repeat;
   background-position: calc(100% - 1rem) center;
@@ -1905,7 +1905,7 @@ input[type="radio"] {
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   text-decoration: none;
-  color: #ffffff;
+  color: #d7d7d7;
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
@@ -1936,7 +1936,7 @@ input[type="checkbox"] + label:before,
 input[type="radio"] + label:before {
   background: rgba(51, 52, 56, 0.5);
   border-radius: 5px;
-  border: solid 2px #ff3c00;
+  border: solid 2px #3f8ff7;
   content: '';
   display: inline-block;
   font-size: 0.8em;
@@ -1993,7 +1993,7 @@ input[type="radio"] + label:before {
 /* Box */
 .box {
   border-radius: 5px;
-  border: solid 2px #ff3c00;
+  border: solid 2px #3f8ff7;
   margin-bottom: 2em;
   padding: 1.5em;
 }
@@ -2127,7 +2127,7 @@ ul.alt {
 }
 
 ul.alt li {
-  border-top: solid 1px #ff3c00;
+  border-top: solid 1px #3f8ff7;
   padding: 0.5em 0;
 }
 
@@ -2301,7 +2301,7 @@ ul.contact li:before {
 
 ul.contact li:before {
   border-radius: 100%;
-  border: solid 2px #ff3c00;
+  border: solid 2px #3f8ff7;
   display: inline-block;
   font-size: 0.8em;
   height: 2.5em;
@@ -2396,7 +2396,7 @@ table {
 }
 
 table tbody tr {
-  border: solid 1px #ff3c00;
+  border: solid 1px #3f8ff7;
   border-left: 0;
   border-right: 0;
 }
@@ -2418,11 +2418,11 @@ table th {
 }
 
 table thead {
-  border-bottom: solid 2px #ff3c00;
+  border-bottom: solid 2px #3f8ff7;
 }
 
 table tfoot {
-  border-top: solid 2px #ff3c00;
+  border-top: solid 2px #3f8ff7;
 }
 
 table.alt {
@@ -2430,7 +2430,7 @@ table.alt {
 }
 
 table.alt tbody tr td {
-  border: solid 1px #ff3c00;
+  border: solid 1px #3f8ff7;
   border-left-width: 0;
   border-top-width: 0;
 }
@@ -2459,10 +2459,10 @@ button,
 .button {
   appearance: none;
   transition: background-color 0.2s ease-in-out;
-  background: #ff3c00;
+  background: #3f8ff7;
   border-radius: 5px;
   border: 0;
-  box-shadow: inset 0 0 0 2px #ff3c00;
+  box-shadow: inset 0 0 0 2px #3f8ff7;
   color: #333438 !important;
   cursor: pointer;
   display: inline-block;
@@ -2485,7 +2485,8 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  background-color: transparent;
+  background: transparent;
+  color: #d7d7d7 !important;
 }
 
 input[type="submit"]:active,
@@ -2684,7 +2685,7 @@ button:disabled,
 }
 
 #header h1 .logo-block .logo-svg {
-  fill: #ff3c00;
+  fill: #3f8ff7;
   width: 52px;
   height: 52px;
   margin-right: 10px;
@@ -2711,7 +2712,7 @@ button:disabled,
   border: 0;
   display: inline-block;
   padding: 0 1em;
-  color: #ff3c00;
+  color: #3f8ff7;
 }
 
 #header nav a:before {
@@ -2723,7 +2724,7 @@ button:disabled,
   text-decoration: none;
   transition: background-color 0.2s ease-in-out;
   border-radius: 5px;
-  box-shadow: inset 0 0 0 2px #ff3c00;
+  box-shadow: inset 0 0 0 2px #3f8ff7;
   padding: 0 1.35em;
 }
 
@@ -2851,7 +2852,7 @@ button:disabled,
 }
 
 #menu h2 {
-  border-bottom: solid 2px #ff3c00;
+  border-bottom: solid 2px #3f8ff7;
   padding-bottom: 1em;
 }
 
@@ -2938,7 +2939,7 @@ body.is-menu-visible #menu .inner {
 }
 
 .topnav a {
-  color: #ff3c00 !important;
+  color: #3f8ff7 !important;
   display: block;
   text-align: right;
 }
@@ -2953,7 +2954,7 @@ body.is-menu-visible #menu .inner {
 }
 
 .topnav ul li .link-item {
-  color: #ff3c00 !important;
+  color: #3f8ff7 !important;
   display: block;
   font-family: Raleway, Helvetica, sans-serif;
   font-weight: 700;
@@ -2983,15 +2984,15 @@ body.is-menu-visible #menu .inner {
 #banner .logo .icon {
   border-radius: 100%;
   background: #333438;
-  width: 5.85em;
-  height: 5.85em;
+  width: 6em;
+  height: 6em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #banner .logo .icon svg {
-  fill: #ff3c00;
+  fill: #3f8ff7;
   width: 82px;
   height: 82px;
 }
@@ -3004,7 +3005,7 @@ body.is-menu-visible #menu .inner {
   -ms-filter: blur(0);
   filter: blur(0);
   opacity: 1;
-  border-bottom: solid 2px #ff3c00;
+  border-bottom: solid 2px #3f8ff7;
   font-size: 2.25em;
   margin-bottom: 0.8em;
   padding-bottom: 0.4em;
@@ -3097,7 +3098,7 @@ body.is-preload #banner p {
 }
 
 #wrapper > header h2 {
-  border-bottom: solid 2px #ff3c00;
+  border-bottom: solid 2px #3f8ff7;
   font-size: 2em;
   margin-bottom: 0.8em;
   padding-bottom: 0.4em;
@@ -3536,7 +3537,7 @@ body.is-preload #banner p {
 }
 
 #footer .inner .copyright {
-  border-top: solid 2px #ff3c00;
+  border-top: solid 2px #3f8ff7;
   list-style: none;
   margin: 4em 0 2em 0;
   padding: 2em 0 0 0;
@@ -3546,7 +3547,7 @@ body.is-preload #banner p {
 }
 
 #footer .inner .copyright li {
-  border-left: solid 2px #ff3c00;
+  border-left: solid 2px #3f8ff7;
   color: #333438;
   display: inline-block;
   font-size: 0.9em;
