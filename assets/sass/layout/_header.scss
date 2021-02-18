@@ -33,7 +33,11 @@
     .logo-block {
       display: flex;
       align-items: center;
-      color: white;
+      color: _palette(fg);
+
+      &:hover {
+        color: _palette(border) !important;
+      }
 
       .logo-svg {
         fill: _palette(border);
@@ -41,10 +45,6 @@
         height: 52px;
         margin-right: 10px;
       }
-    }
-
-    .logo-title {
-      color: white !important;
     }
   }
 
