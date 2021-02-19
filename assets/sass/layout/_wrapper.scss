@@ -202,6 +202,14 @@
 
             li {
               padding: 0;
+
+              .value-title {
+                margin-bottom: 0;
+              }
+
+              .value-subtitle {
+                margin-bottom: 2em;
+              }
             }
           }
         }

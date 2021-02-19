@@ -3359,6 +3359,14 @@ body.is-preload #banner p {
   padding: 0;
 }
 
+.wrapper.spotlight:nth-child(2n - 1) .inner .how .value-list li .value-title {
+  margin-bottom: 0;
+}
+
+.wrapper.spotlight:nth-child(2n - 1) .inner .how .value-list li .value-subtitle {
+  margin-bottom: 2em;
+}
+
 .wrapper.spotlight:nth-child(2n - 1) .image {
   margin: 0 0 2em 3em;
 }
