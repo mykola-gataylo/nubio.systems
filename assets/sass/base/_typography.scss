@@ -104,12 +104,10 @@ p {
   margin: 0 0 _size(element-margin) 0;
 }
 
-.dark {
-  color: _palette(fg-bold);
-}
-
-.light {
-  color: _palette(fg);
+.underline {
+  border-bottom: solid 2px _palette(border);
+  padding-bottom: 0 !important;
+  margin-bottom: 1em;
 }
 
 h1,
@@ -122,7 +120,7 @@ h6 {
   font-family: _font(family-heading);
   font-weight: _font(weight-heading-bold);
   letter-spacing: _font(kern-heading);
-  margin: 0 0 (_size(element-margin) * 0.5) 0;
+  // margin: 0 0 (_size(element-margin) * 0.5) 0;
   text-transform: uppercase;
 
   a {
@@ -137,7 +135,7 @@ h6 {
 
   &.major {
     padding-bottom: 1em;
-    border-bottom: solid 3px _palette(border);
+    // border-bottom: solid 3px _palette(border);
   }
 }
 

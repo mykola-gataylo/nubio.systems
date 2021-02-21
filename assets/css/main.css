@@ -4,17 +4,87 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -23,8 +93,17 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -32,15 +111,20 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
+  margin-right: 0 !important;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before, blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none;
 }
@@ -64,7 +148,9 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   appearance: none;
 }
 
@@ -166,13 +252,13 @@ textarea {
 a {
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: none;
-  color: #333438;
+  color: #d7d7d7;
   text-decoration: none;
 }
 
 a:hover {
   border-bottom-color: transparent;
-  color: #333438 !important;
+  color: #d7d7d7 !important;
 }
 
 a.special:not(.button) {
@@ -226,7 +312,7 @@ a.special:not(.button):active:before {
 
 strong,
 b {
-  color: #333438;
+  color: #d7d7d7;
   font-weight: 600;
 }
 
@@ -239,12 +325,10 @@ p {
   margin: 0 0 2em 0;
 }
 
-.dark {
-  color: #333438;
-}
-
-.light {
-  color: #d7d7d7;
+.underline {
+  border-bottom: solid 2px #3f8ff7;
+  padding-bottom: 0 !important;
+  margin-bottom: 1em;
 }
 
 h1,
@@ -253,11 +337,10 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333438;
+  color: #d7d7d7;
   font-family: Raleway, Helvetica, sans-serif;
   font-weight: 700;
   letter-spacing: 0.1em;
-  margin: 0 0 1em 0;
   text-transform: uppercase;
 }
 
@@ -288,7 +371,6 @@ h4.major,
 h5.major,
 h6.major {
   padding-bottom: 1em;
-  border-bottom: solid 3px #3f8ff7;
 }
 
 h2 {
@@ -1809,7 +1891,7 @@ form > .fields > .field.quarter {
 }
 
 label {
-  color: #333438;
+  color: #d7d7d7;
   display: block;
   font-family: Raleway, Helvetica, sans-serif;
   font-size: 0.8em;
@@ -1867,7 +1949,7 @@ select {
 }
 
 select option {
-  color: #333438;
+  color: #d7d7d7;
   background: #27282c;
 }
 
@@ -1950,8 +2032,8 @@ input[type="radio"] + label:before {
 
 input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
-  background: #333438;
-  border-color: #333438;
+  background: #d7d7d7;
+  border-color: #d7d7d7;
   content: '\f00c';
   color: #27282c;
 }
@@ -2409,7 +2491,7 @@ table td {
 }
 
 table th {
-  color: #333438;
+  color: #d7d7d7;
   font-size: 0.9em;
   font-weight: 600;
   padding: 0 0.75em 0.75em 0.75em;
@@ -2535,7 +2617,7 @@ input[type="reset"].primary.icon:before,
 input[type="button"].primary.icon:before,
 button.primary.icon:before,
 .button.primary.icon:before {
-  color: #333438;
+  color: #5c5d60;
 }
 
 input[type="submit"].fit,
@@ -3020,10 +3102,13 @@ body.is-menu-visible #menu .inner {
   -ms-filter: blur(0);
   filter: blur(0);
   opacity: 1;
-  border-bottom: solid 2px #3f8ff7;
   font-size: 2.25em;
-  margin-bottom: 0.8em;
   padding-bottom: 0.4em;
+  width: fit-content;
+}
+
+#banner h2 .title-underline {
+  border-bottom: solid 2px #3f8ff7;
 }
 
 #banner p {
@@ -3349,12 +3434,24 @@ body.is-preload #banner p {
   text-align: right;
 }
 
-.wrapper.spotlight:nth-child(2n - 1) .inner .how {
-  text-align: left;
+.wrapper.spotlight:nth-child(2n - 1) .inner .how .values-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper.spotlight:nth-child(2n - 1) .inner .how .values-block .diagram-block {
+  display: flex;
+}
+
+.wrapper.spotlight:nth-child(2n - 1) .inner .how .values-block .diagram-block img {
+  align-self: start;
+  width: 600px;
 }
 
 .wrapper.spotlight:nth-child(2n - 1) .inner .how .value-list {
+  margin-right: 0 !important;
   padding: 0;
+  text-align: right;
 }
 
 .wrapper.spotlight:nth-child(2n - 1) .inner .how .value-list li {

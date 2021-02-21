@@ -195,10 +195,30 @@
         text-align: right;
 
         .how {
-          text-align: left;
+
+          .values-block {
+            display: flex;
+            justify-content: space-between;
+
+
+            .diagram-block {
+              display: flex;
+
+              // align-items: center;
+              // justify-content: center;
+              img {
+                align-self: start;
+                width: 600px;
+              }
+            }
+          }
 
           .value-list {
+            margin-right: 0 !important;
             padding: 0;
+            // width: 50%;
+            text-align: right;
+
 
             li {
               padding: 0;
