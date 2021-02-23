@@ -34,11 +34,51 @@
       margin-top: -1.75em;
       position: relative;
       width: calc(100% + #{3.5em});
+      padding: 10px;
 
       img {
         border-radius: _size(border-radius) _size(border-radius) 0 0;
         width: 100%;
       }
+    }
+  }
+
+  // #logo-animation {
+  //   animation-name: logo;
+  //   animation-timing-function: ease;
+  // }
+
+  // @keyframes logo {
+  // 0% {
+  //   transform: translateY(0);
+  // }
+
+  // 50% {
+  //   transform: translateY(-100px);
+  // }
+
+  // 100% {
+  //   transform: translateY(0);
+  // }
+  // }
+
+  #logo-animation {
+    animation: logo 1.5s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  @keyframes logo {
+    0% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(30px);
+    }
+
+    100% {
+      transform: translateY(0);
     }
   }
 
