@@ -337,27 +337,50 @@
 }
 
 #light-one {
+  -webkit-animation: opacity 2s infinite ease-in-out;
   animation: opacity 2s infinite ease-in-out;
 }
 
 #light-two {
+  -webkit-animation: opacity 2s infinite ease-in-out;
   animation: opacity 2s infinite ease-in-out;
+  -webkit-animation-delay: 2s;
   animation-delay: 2s;
 }
 
 #light-three {
+  -webkit-animation: opacity 2s infinite ease-in-out;
   animation: opacity 2s infinite ease-in-out;
+  -webkit-animation-delay: 4s;
   animation-delay: 4s;
 }
 
 #light-four {
+  -webkit-animation: opacity 2s infinite ease-in-out;
   animation: opacity 2s infinite ease-in-out;
+  -webkit-animation-delay: 6s;
   animation-delay: 6s;
 }
 
 #light-five {
+  -webkit-animation: opacity 2s infinite ease-in-out;
   animation: opacity 2s infinite ease-in-out;
+  -webkit-animation-delay: 8s;
   animation-delay: 8s;
+}
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.50;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes opacity {
@@ -375,8 +398,26 @@
 }
 
 #heart {
+  -webkit-animation: pulse 1s infinite ease-in-out;
   animation: pulse 1s infinite ease-in-out;
   transform-box: fill-box;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.5;
+  }
+
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(0.9);
+    opacity: 0.5;
+  }
 }
 
 @keyframes pulse {
@@ -397,9 +438,22 @@
 }
 
 #bird {
+  -webkit-animation: hide 2s infinite ease-in-out;
   animation: hide 2s infinite ease-in-out;
   transform-origin: center;
   transform-box: fill-box;
+}
+
+@-webkit-keyframes hide {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 @keyframes hide {
@@ -415,9 +469,24 @@
 }
 
 #commitment {
+  -webkit-animation: floating 1.5s infinite ease-in-out;
   animation: floating 1.5s infinite ease-in-out;
   transform-origin: center;
   transform-box: fill-box;
+}
+
+@-webkit-keyframes floating {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(8%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
 }
 
 @keyframes floating {
@@ -436,17 +505,46 @@
 
 #team {
   #left-man {
+    -webkit-animation: team-left 2s infinite ease-in-out;
     animation: team-left 2s infinite ease-in-out;
     transform-box: fill-box;
     transform-origin: center;
   }
 
   #right-man {
+    -webkit-animation: team-right 2s infinite ease-in-out;
     animation: team-right 2s infinite ease-in-out;
     transform-box: fill-box;
     transform-origin: center;
   }
 
+}
+
+@-webkit-keyframes team-left {
+  0% {
+    transform: translateX(150%);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateX(-8%);
+  }
+
+  65% {
+    transform: translateX(4%);
+  }
+
+  80% {
+    transform: translateX(-4%);
+  }
+
+  95% {
+    transform: translateX(2%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 @keyframes team-left {
@@ -469,6 +567,33 @@
 
   95% {
     transform: translateX(2%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes team-right {
+  0% {
+    transform: translateX(-150%);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateX(8%);
+  }
+
+  65% {
+    transform: translateX(-4%);
+  }
+
+  80% {
+    transform: translateX(4%);
+  }
+
+  95% {
+    transform: translateX(-2%);
   }
 
   100% {
