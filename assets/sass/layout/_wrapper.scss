@@ -7,6 +7,7 @@
 /* Wrapper */
 
 /// Sets the colors of the wrapper's top/bottom edges.
+
 /// @param {string} $color Color.
 @mixin wrapper-edges-color($color: black) {
 
@@ -199,18 +200,6 @@
           .values-block {
             display: flex;
             justify-content: space-between;
-
-
-            .diagram-block {
-              display: flex;
-
-              // align-items: center;
-              // justify-content: center;
-              img {
-                align-self: start;
-                width: 600px;
-              }
-            }
           }
 
           .value-list {
@@ -344,5 +333,172 @@
     .inner {
       @include padding(2em, 1.5em);
     }
+  }
+}
+
+#light-one {
+  animation: opacity 2s infinite ease-in-out;
+}
+
+#light-two {
+  animation: opacity 2s infinite ease-in-out;
+  animation-delay: 2s;
+}
+
+#light-three {
+  animation: opacity 2s infinite ease-in-out;
+  animation-delay: 4s;
+}
+
+#light-four {
+  animation: opacity 2s infinite ease-in-out;
+  animation-delay: 6s;
+}
+
+#light-five {
+  animation: opacity 2s infinite ease-in-out;
+  animation-delay: 8s;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.50;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#heart {
+  animation: pulse 1s infinite ease-in-out;
+  transform-box: fill-box;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.5;
+  }
+
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(0.9);
+    opacity: 0.5;
+  }
+}
+
+#bird {
+  animation: hide 2s infinite ease-in-out;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes hide {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+#commitment {
+  animation: floating 1.5s infinite ease-in-out;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(8%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+#team {
+  #left-man {
+    animation: team-left 2s infinite ease-in-out;
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+
+  #right-man {
+    animation: team-right 2s infinite ease-in-out;
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+
+}
+
+@keyframes team-left {
+  0% {
+    transform: translateX(150%);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateX(-8%);
+  }
+
+  65% {
+    transform: translateX(4%);
+  }
+
+  80% {
+    transform: translateX(-4%);
+  }
+
+  95% {
+    transform: translateX(2%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes team-right {
+  0% {
+    transform: translateX(-150%);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateX(8%);
+  }
+
+  65% {
+    transform: translateX(-4%);
+  }
+
+  80% {
+    transform: translateX(4%);
+  }
+
+  95% {
+    transform: translateX(-2%);
+  }
+
+  100% {
+    transform: translateX(0%);
   }
 }
