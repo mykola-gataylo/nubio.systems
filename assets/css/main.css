@@ -2701,7 +2701,12 @@ button:disabled,
   padding: 10px;
 }
 
-.features article .image img {
+.features article .image a {
+  display: block;
+  padding: 20px 10px;
+}
+
+.features article .image a img {
   border-radius: 5px 5px 0 0;
   width: 100%;
 }
