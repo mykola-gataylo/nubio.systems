@@ -3079,7 +3079,7 @@ body.is-menu-visible #menu .inner {
 /* Banner */
 #banner {
   padding: 10em 0 4.75em 0 ;
-  background-image: linear-gradient(to top, rgba(39, 40, 44, 0.3), rgba(39, 40, 44, 0.3)), url(/images/test.jpg) !important;
+  background-image: linear-gradient(to top, rgba(39, 40, 44, 0), rgba(39, 40, 44, 0)), url(/images/test.jpg) !important;
   background-size: auto, cover;
   background-position: center, center;
 }
