@@ -2793,7 +2793,7 @@ button:disabled,
 }
 
 #header h1 .logo-block .logo-svg {
-  fill: #3f8ff7;
+  fill: #d7d7d7;
   width: 52px;
   height: 52px;
   margin-right: 10px;
@@ -3112,7 +3112,7 @@ body.is-menu-visible #menu .inner {
 }
 
 #banner .logo .icon svg {
-  fill: #3f8ff7;
+  fill: #d7d7d7;
   width: 82px;
   height: 82px;
 }
