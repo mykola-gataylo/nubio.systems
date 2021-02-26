@@ -32,8 +32,8 @@
         <a class="logo-block" href="#logo">
           <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 616 512">
             <defs>
-              <filter id="f1" x="0" y="0" width="500%" height="500%">
-                <feOffset result="offOut" in="SourceGraphic" dx="-5" dy="5" />
+              <filter id="f1" x="0" y="0" width="200%" height="200%">
+                <feOffset result="offOut" in="SourceAlpha" dx="-5" dy="5" />
                 <feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
                 <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
               </filter>
@@ -87,7 +87,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 616 512">
               <defs>
                 <filter id="f1" x="0" y="0" width="200%" height="200%">
-                  <feOffset result="offOut" in="SourceAlpha" dx="20" dy="20" />
+                  <feOffset result="offOut" in="SourceAlpha" dx="-5" dy="5" />
                   <feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
                   <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
                 </filter>
