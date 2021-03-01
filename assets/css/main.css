@@ -3788,6 +3788,10 @@ body.is-preload #banner p {
 }
 
 /* Footer */
+#footer .hidden {
+  display: none;
+}
+
 #footer .inner {
   padding: 5em 0 3em 0 ;
   display: -moz-flex;
