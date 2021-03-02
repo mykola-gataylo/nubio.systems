@@ -3132,6 +3132,7 @@ body.is-menu-visible #menu .inner {
 }
 
 #banner h2 .title-underline {
+  display: block;
   border-bottom: solid 2px #3f8ff7;
 }
 
@@ -3460,7 +3461,7 @@ body.is-preload #banner p {
 
 .wrapper.spotlight:nth-child(2n - 1) .inner .how .values-block {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .wrapper.spotlight:nth-child(2n - 1) .inner .how .value-list {
